@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="hello_blank_fragment_data">Hola desde el fragmento Data</string>
+    <string name="hello_blank_fragment_details">hola desde el fragmento Details</string>
+    <string name="nombre">Nombre</string>
+    <string name="enviar">Enviar</string>
+
+</resources>
