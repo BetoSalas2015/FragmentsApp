@@ -4,15 +4,14 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    tools:context=".activities.MainActivity" >
+    tools:context=".activities.DetailsActivity" >
 
     <fragment
         android:layout_width="match_parent"
-        android:name="com.betosoft.fragments.fragments.DataFragment"
-        android:layout_height="0dp"
-        android:layout_weight="50"
-        tools:layout="@layout/fragment_data"
-        android:id="@+id/dataFragment" />
-
+        android:name="com.betosoft.fragments.fragments.DetailsFragment"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_details"
+        android:id="@+id/detailFragment" />
 
 </LinearLayout>

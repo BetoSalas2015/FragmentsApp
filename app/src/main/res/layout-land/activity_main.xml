@@ -14,12 +14,4 @@
         android:layout_weight="1"
         tools:layout="@layout/fragment_data" />
 
-    <fragment
-        android:id="@+id/detailFragment"
-        android:name="com.betosoft.fragments.fragments.DetailsFragment"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        tools:layout="@layout/fragment_details" />
-
 </LinearLayout>
